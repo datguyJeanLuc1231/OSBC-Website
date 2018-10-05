@@ -1,0 +1,35 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/28164319_700757011245_5220837734817138911_o.jpg?_nc_cat=105&oh=5405b805799ac2fc213f847db3039ee8&oe=5C61B9E8")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 1rem;
+}
+
+.navbar {
+    background: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
