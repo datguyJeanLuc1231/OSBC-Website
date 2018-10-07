@@ -1,0 +1,34 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://images.unsplash.com/photo-1536603522264-0f2269f1e374?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2363e112debc099907b4ad684cd29d35&auto=format&fit=crop&w=600&q=60")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #9933CC;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #9933CC;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #9933CC;
+    }
+  }
