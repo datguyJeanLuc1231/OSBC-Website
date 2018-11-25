@@ -2,40 +2,40 @@ html,
 body,
 header,
 #intro {
-    height: 100%;
+  height: 100%;
 }
 
 #intro {
-    background: url("/img/pastorBlue.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 4rem;
+  background: url("/img/pastorBlue1.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .navbar {
-    background: transparent;
-    background-color: transparent;
-    border-color: transparent;
+  background: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .top-nav-collapse {
-    background-color: #9933CC
-    ;
+  background-color: #9933CC;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #9933CC;
   }
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #9933CC
-      ;
-    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #9933CC;
   }
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #9933CC
-      ;
-    }
-  }
+}
 
 .white-text-quote {
   color: white;
@@ -47,4 +47,20 @@ header,
   color: #9933CC;
   text-decoration: none;
   font-weight: bold;
+}
+
+.borderline-white {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+@media (max-width: 480px) {
+  #intro {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right;
+  }
 }
