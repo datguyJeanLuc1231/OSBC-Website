@@ -4,3 +4,8 @@
   font-family: 'Satisfy', cursive;
   font-size: 2rem;
 }
+
+.tithely-give-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

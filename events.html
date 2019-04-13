@@ -2,225 +2,159 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Events | The Historical OSBC</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-  <!-- Bootstrap core CSS -->
-  <link href="public/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="public/css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="public/css/events.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events Calendar | The Historical OSBC</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/events.css">
+    <!-- Bootstrap core CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="public/css/mdb.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar morpheus-den-gradient">
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark secondary-color-dark fixed-top scrolling-navbar mb-5">
 
-      <div class="container">
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="https://osbchurch.org">OSBC</a>
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <div class="container">
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="https://osbchurch.org">OSBC</a>
 
-          <!-- Links -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="https://osbchurch.org">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Events
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pastor">Meet Our Pastor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact">Contact</a>
-            </li>
-          </ul>
-          <!-- Links -->
-        </div>
-        <!-- Collapsible content -->
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-      </div>
-    </nav>
-    <!--Mask-->
-    <div id="intro" class="view">
-      <div class="mask rgba-black-light">
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-md-10">
-              <!-- Heading -->
-              <h2 class="display-1 font-weight-bold white-text pt-5 mb-2">Current & Future Events</h2>
-              <hr class="borderline-white">
-              <h4 class="white-text my-4 font-weight-bold">Find out what we're doing!</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
 
-  <main class="night-fade-gradient">
-    <div class="container">
-      <nav class="nav pt-3">
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <a class="nav-item nav-link active lead black-text" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-            aria-controls="nav-home" aria-selected="true">November 2018</a>
-          <a class="nav-item nav-link lead black-text" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-            aria-controls="nav-profile" aria-selected="false">December 2018</a>
-          <a class="nav-item nav-link lead black-text" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-            aria-controls="nav-contact" aria-selected="false">2019</a>
-        </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-          <div class="card border-secondary mb-3" style="max-width: 20rem;">
-            <div class="card-header">November 25, 2018</div>
-            <div class="card-body text-secondary">
-              <h5 class="card-title">The 134th Church Anniversary</h5>
-              <p class="card-text">Time: 3:00pm</p>
-              <p class="card-text">Special Guest Speaker: Rev. DuJuan Morris, MDIV</p>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-          <div class="row justify-content-between">
-            <div class="col-md-6">
-              <div class="card border-secondary mb-3" style="max-width: 20rem;">
-                <div class="card-header">December 22, 2018</div>
-                <div class="card-body text-secondary">
-                  <h5 class="card-title">Christmas Program</h5>
-                  <p class="card-text">Time: 7:00pm</p>
-                  <p class="card-text">Come celebrate Christmas with our youth as they put on wonderful and inspiring program!</p>
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://osbchurch.org">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Events
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pastor">Meet Our Pastor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="tithely-give-btn nav-link"
+                                style="font-family: inherit; background-color: transparent; color: white; border: none;"
+                                data-church-id="499029">Give</button>
+                            <script src="https://tithe.ly/widget/v3/give.js?3"></script>
+                            <script>
+                                var tw = create_tithely_widget();
+                            </script>
+                        </li>
+                    </ul>
+                    <!-- Links -->
                 </div>
-              </div>
+                <!-- Collapsible content -->
+
             </div>
-            <div class="col-md-6">
-              <div class="card border-secondary mb-3" style="max-width: 20rem;">
-                <div class="card-header">December 31, 2018</div>
-                <div class="card-body text-secondary">
-                  <h5 class="card-title">Annual Watch Service</h5>
-                  <p class="card-text">Time: 10:00pm - 12:00am</p>
-                  <p class="card-text">Come bring in the year the right way! Breakfast will be served.</p>
+
+        </nav>
+        <!--/.Mask-->
+    </header>
+
+    <main class="mb-5 mt-5">
+        <!--Section: Contact-->
+        <section id="contact" class="container">
+            <!-- Heading -->
+            <h1 class="mb-5 pt-5 font-weight-bold text-center">Events Calendar</h1>
+            <p class="text-center w-responsive mx-auto mb-5">Find out what are we doing this month!</p>
+            <div class="frame">
+                <iframe
+                    src="https://calendar.google.com/calendar/b/1/embed?title=Old%20Sardis%20Baptist%20Church%20Events%20Calander&amp;showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=oldsardisbaptist%40gmail.com&amp;color=%235229A3&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%237A367A&amp;ctz=America%2FChicago"
+                    style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small secondary-color-dark pt-4">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <!-- Content -->
+                    <h6 class="font-weight-bold">Old Sardis Missionary Baptist Church</h6>
+                    <p>1240 4th Street North <br>Birmingham, AL 35204</p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-          <div class="row justify-content-between">
-            <div class="col-md-12">
-              <div class="card border-secondary mb-3" style="max-width: 20rem;">
-                <div class="card-header">Coming soon!</div>
-                <div class="card-body text-secondary">
-                  <h5 class="card-title">To be determined</h5>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Links -->
+                    <h6 class="font-weight-bold">Service Times</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            Sunday School
+                        </li>
+                        <li>
+                            9:30 am
+                        </li>
+                        <li>
+                            Sunday Service
+                        </li>
+                        <li>
+                            11:00 am
+                        </li>
+                    </ul>
                 </div>
-              </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h6 class="font-weight-bold">Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fas fa-phone"></i><a href="tel:1-205-322-4362">(205) 322-4362</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> oldsardisbaptist@gmail.com
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/osbc.birmingham.7"><i class="fab fa-facebook"></i>
+                                    Like Us on FaceBook</a>
+                            </li>
+                        </ul>
+                </div>
             </div>
-            
-          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Old Sardis Baptist Church</div>
+    </footer>
+    <!-- Footer -->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="public/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="public/js/mdb.min.js"></script>
 
-        </div>
-      </div>
-      <section class="text-center">
-        <div>
-          <h3 class="white-text display-4"><strong>Featured Event</strong></h3>
-          <hr class="borderline">
-          <img class="img-fluid mb-3" src="img/anniversary.jpg" alt="anniversary banner" style="height: 600px">
-        </div>
-        <!--Grid row-->
-      </section>
 
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="page-footer font-small secondary-color-dark pt-4">
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-      <!-- Grid row -->
-      <div class="row">
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-          <!-- Content -->
-          <h6 class="font-weight-bold">Old Sardis Missionary Baptist Church</h6>
-          <p>1240 4th Street North <br>Birmingham, AL 35204</p>
-        </div>
-        <!-- Grid column -->
-        <hr class="clearfix w-100 d-md-none pb-3">
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-          <!-- Links -->
-          <h6 class="font-weight-bold">Service Times</h6>
-          <ul class="list-unstyled">
-            <li>
-              Sunday School
-            </li>
-            <li>
-              9:30 am
-            </li>
-            <li>
-              Sunday Service
-            </li>
-            <li>
-              11:00 am
-            </li>
-          </ul>
-        </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-          <!-- Links -->
-          <h6 class="font-weight-bold">Contact Us</h5>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fas fa-phone"></i><a href="tel:1-205-322-4362">(205) 322-4362</a>
-              </li>
-              <li>
-                <i class="fa fa-envelope"></i> oldsardisbaptist@gmail.com
-              </li>
-              <li>
-                <a href="https://www.facebook.com/osbc.birmingham.7"><i class="fab fa-facebook"></i> Like Us on
-                  FaceBook</a>
-              </li>
-            </ul>
-        </div>
-      </div>
-    </div>
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright: Old Sardis Baptist Church</div>
-  </footer>
-  <!-- Footer -->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="public/js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="public/js/mdb.min.js"></script>
 </body>
 
 </html>

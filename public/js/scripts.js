@@ -17,3 +17,5 @@ function regular_map() {
 }
 // Initialize maps
 google.maps.event.addDomListener(window, 'load', regular_map);
+
+

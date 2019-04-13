@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-  background: url("/img/OSBC-2.jpg");
+  background: url("/img/OSBC-2-min.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -47,6 +47,11 @@ header,
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+.tithely-give-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 @media (max-width: 480px) {
